@@ -1,0 +1,12 @@
+views:
+  - type: table
+    name: 表格
+    order:
+      - file.name
+      - difficulty
+      - file.tags
+    sort:
+      - property: difficulty
+        direction: ASC
+    columnSize:
+      file.tags: 404
